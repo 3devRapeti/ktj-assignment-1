@@ -1,2 +1,2 @@
-# ktj-assignment-1
-ktj
+# ktj-assignment1
+ktj ass1 , summer workshop on web dev
