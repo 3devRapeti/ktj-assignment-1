@@ -70,7 +70,7 @@ body {
   padding-left: 10px;
   padding-top: 5px;
   border-style: double;
-  padding-right: 255px;
+  padding-right: 276px;
   padding-bottom: 2px;
   border: 2px;
   border-color: #f1f1f1;
@@ -812,17 +812,28 @@ button.terms {
 }
 </style>
 </head>
-<body>
-  <nav class="topnav navbar-fixed-top" id="navigtionbar">
-    <b class="navbar-brand" rel="home" href="#" title="Buy Sell Rent Everyting">
-      <img style="max-width:200px;" src="bgimg.png" style="border-right:  2px solid rgb(216, 179, 179);">
-    </b>
-    <a class="normal" href="#comingsoon">Coming Soon</a>
-    <a class="normal" href="#surprisesection">Surprise</a>
-    <a class="normal" href="#most">Most Bought</a>
-    <a class="normal" href="#userreviews">User Reviews</a>
-    <a class="splatt" href="https://www.google.com/covid19/" target="_blank">COVID-19 ADVISORY</a>
-  </nav>
+<body data-spy="scroll" data-target="#myNavbar" data-offset="50">
+  <nav class="topnav navbar-fixed-top navbar-expand-md navbar-light bg-light" id="navigtionbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" style="align-content:center; background-color:  #233c61; border:none;"  data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fas fa-align-justify" style="background-color: #233c61; color: white; font-size: 30px;"></i>
+                </button>
+                <b class="navbar-brand" rel="home" href="#" title="Buy Sell Rent Everyting">
+                    <img style="max-width:200px;" src="bgimg.png" style="border-right:  2px solid rgb(216, 179, 179);">
+                </b>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a class="normal" href="#comingsoon">Coming Soon</a></li>
+                    <li><a class="normal" href="#surprisesection">Surprise</a></li>
+                    <li><a class="normal" href="#most">Most Bought</a></li>
+                    <li><a class="normal" href="#userreviews">User Reviews</a></li>
+                    <li><a class="splatt" href="https://www.google.com/covid19/" target="_blank">COVID-19 ADVISORY</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
   <div class="titlespace" id="titlepage">
     BUSINESS
     INSIDER
